@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: auto;
+    height: auto;
+}
+.section1{
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    background-image: url(1.webp);
+}
+header{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 65%;
+    height: 35%;
+}
+.menu1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu1 a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.menu1 a:first-child{
+    text-decoration: underline;
+}
+.menu2{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+.welcome_text{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+}
+.welcome_text h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.welcome_text p{
+    width: 52%;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: sans-serif;
+}
+.welcome_text p a{
+    text-decoration: underline;
+}
+.order{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+.order div input{
+    width: 400px;
+    height: 45px;
+    background: transparent;
+    background-color: rgba(133, 132, 132, 0.2);
+    border: solid 2px rgb(196, 186, 186);
+    border-radius: 3px;
+    padding-left: 20px;
+}
+.order div button{
+    width: 170px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    border: solid 2px white;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+.order a{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.section2{
+    width: 100%;
+    height: 300vh;
+    background-color: black;
+}
+.section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.section img{
+    width: 50%;
+    height: 400px;
+}
+.d-container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    height: 90vh;
+}
+.d{
+    width: 70%;
+    height: 100%;
+    color: white;
+}
+.d h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.d p{
+    margin-top: 25px;
+    text-align: initial;
+    font-size: 16px;
+}
+button{
+    margin-top: 25px;
+    width: 250px;
+    height: 45px;
+    background: transparent;
+    border: solid 3px white;
+    border-radius: 3px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(5.webp);
+    background-size: cover;
+    padding-top: 20vh;
+}
+.section3 .d-container{
+    width: 50%;
+}
+.section4{
+    width: 100%;
+    height: 130vh;
+    background-color: black;
+}
+.section4 .section img{
+    width: 50%; 
+    height: 350px;
+}
+.section4 .section .d-container{
+    width: 50%; 
+    margin-top: 25vh;
+}
+.section4 .section .d-container .d div{
+    display: flex;
+    width: 80%; 
+    height: 45px; 
+    justify-content: space-between;
+}
+.section4 .section .d-container .d div button{
+    width: 45%;
+}
+.section5{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(39,38,38);
+    padding-top: 50px;
+    color: white;
+}
+.quote{
+    display: flex;
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+.section5 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+.quote p{
+    text-align: center;
+    font-size: 23px;
+    width: 33%;
+    line-height: 40px;
+}
+.section6{
+    width: 100%;
+    height: 220vh;
+    background-color: black;
+}
+.section7{
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+.section7 img{
+    height: 300px;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+.f{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 190px;
+}
+.f-menu{
+    font-family: sans-serif;
+    width: 300px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+@media only screen and (max-width: 768px){
+    .section1{
+        height: 140vh;
+        background-image: url(10.png);
+        background-repeat: no-repeat;
+    }
+    .logo{
+        display: none;
+    }
+    .menu1, .menu2{
+        display: none;
+    }
+    .order div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .order div{
+        width: 90%;
+    }
+    .order div input{
+        width: 95%;
+    }
+    .order div button{
+        width: 95%;
+    }
+    .order a{
+        margin-bottom: 10px;
+    }
+    .section2{
+        height: 450vh;
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        height: 180vh;
+    }
+    .section img{
+        width: 100%;
+    }
+    .d-container{
+        width: 100%;
+        margin-top: 10vh;
+    }
+    .section2 .section:nth-last-child(2){
+        display: flex;
+        flex-direction: column-reverse;
+        height: 30%;
+    }
+    .section2 .section:last-child{
+        height: 30%;
+    }
+    .d button{
+        width: 100%;
+    }
+    .section3 .d-container{
+        width: 100%;
+    }
+    .section4{
+        height: 180vh;
+    }
+    .section4 .section img{
+        width: 100%;
+        height: 400px;
+    }
+    .section4 .section .d-container{
+        width: 100%;
+        margin-top: 5vh;
+    }
+    .section4 .section .d-container .d{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+    }
+    .section4 .section .d-container .d *{
+        width: 100%;
+    }
+    .section4 .section .d-container .d div{
+        width: 100%;
+    }
+    .section4 .section .d-container .d div button{
+        width: 45%;
+    }
+    .section5{
+        height: 100vh;
+    }
+    .quote p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .section6{
+        height: 350vh;
+    }
+    .section6 .section:last-child{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer{
+        display: flex;
+        justify-content: space-around;
+    }
+    .f{
+        margin-left: 0;
+    }
+}
+
+
